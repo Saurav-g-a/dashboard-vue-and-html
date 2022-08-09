@@ -134,6 +134,11 @@ export const useSideMenuStore = defineStore("sideMenu", {
         title: "Inbox",
       },
       {
+        icon: "InboxIcon",
+        pageName: "Courses",
+        title: "My Courses",
+      },
+      {
         icon: "HardDriveIcon",
         pageName: "side-menu-file-manager",
         title: "File Manager",

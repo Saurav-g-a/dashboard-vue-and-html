@@ -148,3 +148,14 @@
 @import "components/_source-preview.css";
 @import "components/_full-calendar.css";
 @import "components/_pristine.css";
+
+img.icons-image {
+  border-radius: 50%;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin-right: 8px;
+}
+li.nav-item.flex-1 {
+  flex: 0;
+}

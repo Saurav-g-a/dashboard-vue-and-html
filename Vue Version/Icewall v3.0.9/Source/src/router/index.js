@@ -16,6 +16,7 @@ import SellerList from "../views/seller-list/Main.vue";
 import SellerDetail from "../views/seller-detail/Main.vue";
 import Reviews from "../views/reviews/Main.vue";
 import Inbox from "../views/inbox/Main.vue";
+import Courses from "../views/My Courses/Main.vue";
 import FileManager from "../views/file-manager/Main.vue";
 import PointOfSale from "../views/point-of-sale/Main.vue";
 import Chat from "../views/chat/Main.vue";
@@ -146,6 +147,11 @@ const routes = [
         path: "inbox",
         name: "side-menu-inbox",
         component: Inbox,
+      },
+      {
+        path: "Courses",
+        name: "Courses",
+        component: Courses,
       },
       {
         path: "file-manager",
